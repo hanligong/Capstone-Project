@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/otherType0"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/text_border"
+                android:gravity="center"
+                android:text="好评度"/>
+
+            <TextView
+                android:id="@+id/otherType1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/text_border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="国内游"/>
+
+            <TextView
+                android:id="@+id/otherType2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/text_border"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="出境游"/>
+
+            <TextView
+                android:id="@+id/otherType3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/text_border"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="自由行"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/otherRv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
