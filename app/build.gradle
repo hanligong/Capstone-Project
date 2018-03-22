@@ -21,7 +21,7 @@ android {
         config {
             keyAlias 'key0'
             keyPassword '123456'
-            storeFile file('./key/iqianjin.keystore')
+            storeFile file('./key/capstone.keystore')
             storePassword '123456'
         }
     }
